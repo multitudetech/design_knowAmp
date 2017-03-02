@@ -647,3 +647,26 @@ p, ul, ol {
 
 }
 /* sign up box Ends */
+
+
+/* Ask Question Css Starts */
+
+.fa-fa-title .fa {
+    margin-right: 10px;
+}
+
+.fa-angle-list>li>a{
+    display: block;
+    position: relative;
+    padding-left: 20px;
+}
+
+.fa-angle-list>li>a:after {
+    content: '\f105';
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Ask Question Css Ends */
