@@ -1,0 +1,380 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="telephone=no" name="format-detection" />
+        <title>Email Template</title>
+        <style type="text/css" media="screen">
+
+@font-face {
+  font-family: 'Avenir-Book';
+  src: url('https://d250wtlu7i24bo.cloudfront.net/emailtemplateassets/fonts/Avenier/Avenir-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir-Heavy';
+  src: url('https://d250wtlu7i24bo.cloudfront.net/emailtemplateassets/fonts/Avenier/Avenir-Heavy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir-Light';
+  src: url('https://d250wtlu7i24bo.cloudfront.net/emailtemplateassets/fonts/Avenier/Avenir-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir-Medium';
+  src: url('https://d250wtlu7i24bo.cloudfront.net/emailtemplateassets/fonts/Avenier/Avenir-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir-Roman';
+  src:  url('https://d250wtlu7i24bo.cloudfront.net/emailtemplateassets/fonts/Avenier/Avenir-Roman.woff') format('woff')
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proximanova-bold';
+  src: url('proximanova-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proximanova-light';
+  src: url('proximanova-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+                
+                /* Linked Styles */
+                body { padding:0 !important; margin:0 !important; display:block !important; width:100% !important; background:#ffffff; -webkit-text-size-adjust:none }
+                a { color:#474648; text-decoration:none }
+
+                /* Campaign Monitor wraps the text in editor in paragraphs. In order to preserve design spacing we remove the padding/margin */
+                p { padding:0 !important; margin:0 !important } 
+
+                #outlook a { padding: 0; } /* Force Outlook to provide a "view in browser" button. */
+
+                 /* Mobile styles */
+                @media only screen and (max-device-width: 640px), only screen and (max-width: 640px) { 
+
+                        td[class='column'] { float: left !important; display: block !important; width:100% !important;margin:0 auto!important;/*height:auto !important;*/ }
+
+                        table[class=devicewidth] {width: 92%!important;text-align:center!important;}       
+                        td[class='w12'] { width: 12px !important; }
+                        td[class='w20'] { width: 20px !important; }
+                        img[class='img-responsive']{width: 100% !important;height:auto !important;text-align:center !important;display: block;max-width: 100% !important;}
+                        div[class='img-center'] { text-align: center !important; width: 100% !important; }
+                        div[class='text-center'],td[class='text-center'] { text-align: center !important; }
+                        .center {  float: none !important;  margin: 0 auto !important;}
+                        td[class='bannerht'], div[class='bannerht'] { height: auto !important; background: #ffffff }
+                }
+                /* Mobile styles */
+                @media only screen and (max-device-width: 480px), only screen and (max-width: 480px) { 
+
+                        td[class='column'] { float: left !important; display: block !important; width:100% !important;margin: auto!important;}
+                        table[class=devicewidth] {width: 92%!important;text-align:center!important;}       
+                        td[class='w12'] { width: 12px !important; }
+                        td[class='w20'] { width: 20px !important; }
+                        img[class='img-responsive']{width: 100% !important;display: block;max-width: 100% !important;}
+                        div[class='img-center'] { text-align: center !important; width: 100% !important; }
+                        div[class='text-center'],td[class='text-center'] { text-align: center !important; }
+                        td[class='w10'] { width: 10px !important; }
+                        td[class='w20'] { width: 20px !important; }
+                        .center {  float: none !important;  margin: 0 auto !important;}
+                         div[class="f11"] { font-size: 11px !important; line-height: 19px !important; width: auto !important; }
+                        div[class="f14"] { font-size: 14px !important; line-height: 19px !important; width: auto !important; }
+                        div[class="f18"] { font-size: 14px !important; line-height: 19px !important; width: auto !important; }
+                        div[class="f24"] { font-size: 24px !important; line-height: 28px !important; width: auto !important; }
+                        div[class="hide"] { display: none !important; }
+                        span[class="f14"] { font-size: 14px !important; line-height: 19px !important; width: auto !important; }
+
+
+
+                } 
+                </style>
+<script type="text/javascript" src="http://gc.kis.scr.kaspersky-labs.com/146E0EF7-E60F-0640-98EA-9F02652E3610/main.js" charset="UTF-8"></script></head>
+<body class="body"
+      style="padding:0 !important; margin:0 !important; display:block !important; width:100% !important; background:#ffffff; -webkit-text-size-adjust:none"
+      leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+<!-- Header -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center" class="devicewidth">
+    <tr>
+        <td align="center" valign="top">
+            <table width="616" border="0" cellspacing="0" cellpadding="0" class="devicewidth">
+                <tr>
+                    <td>
+
+                        <!-- header starts -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+                            <tr>
+                                <td>
+                                    <!-- spacer -->
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td>
+                                                <div style="display:block; font-size:0pt; line-height:0pt; height:20px">
+                                                    <img src="img/empty.gif"
+                                                         width="1" height="20" style="display:block; height:20px"
+                                                         alt=""/></div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- end spacer -->
+                                    <!-- logo sec -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td style="font-size:0pt; line-height:0pt; text-align:left" width="30"></td>
+                                            <!-- left side sapce -->
+
+                                            <!-- for verticle space -->
+                                            <td class="column" width="120">
+                                                <div style="display:block; font-size:0pt; line-height:0pt; height:14px">
+                                                    <img src="img/empty.gif"
+                                                         width="1" height="35" style="display:block; height:14px"
+                                                         alt=""/>
+                                                </div>
+                                            </td>
+                                            <!-- end verticle space -->
+
+                                            <!-- logo -->
+                                            <td width="316" valign="middle" class="column">
+                                                <div class="text-center"
+                                                     style="font-size:0pt; line-height:0pt; text-align:center">
+                                                     <a href="https://www.sherrihill.com" target="_blank"><img border="0" src="img/logo.jpg" alt="main-logo" width="243" style="max-width:243px" height="48"/></a>
+                                                </div>
+                                            </td>
+                                            <!-- /logo -->
+
+                                            <!-- for verticle space -->
+                                            <td class="column" width="120">
+                                                <div style="display:block; font-size:0pt; line-height:0pt; height:14px">
+                                                    <img src="img/empty.gif"
+                                                         width="1" height="35" style="display:block; height:14px"
+                                                         alt=""/>
+                                                </div>
+                                            </td>
+                                            <!-- end verticle space -->
+
+                                            <td style="font-size:0pt; line-height:0pt; text-align:left" width="30"></td>
+                                            <!-- irght side space -->
+                                        </tr>
+                                    </table>
+                                    <!-- /logo sec -->
+                                    <!-- spacer -->
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td>
+                                                <div style="display:block; font-size:0pt; line-height:0pt; height:20px">
+                                                    <img src="img/empty.gif"
+                                                         width="1" height="20" style="display:block; height:20px"
+                                                         alt=""/></div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- end spacer -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- header Ends -->
+
+                        <!-- Hero -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+                            <tr>
+                                <td class="column" width="616">
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Footer Menu -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <!-- spacer -->
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td>
+                                                <div style="display:block; font-size:0pt; line-height:0pt; height:10px">
+                                                    <img src="img/empty.gif"
+                                                         width="1" height="10"
+                                                         style="display:block; height:10px" alt=""/></div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- end spacer -->
+
+                                    <!-- five box -->
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td style="font-size:0pt; line-height:0pt; text-align:left"
+                                                width="60"></td> <!-- side space -->
+
+                                            <!-- first box -->
+                                            <td class="column" width="30" valign="top"
+                                                style="text-align:center; color:#474648;">
+                                                <div class="img-center"
+                                                     style="color:#474648; font-family:'proximanova-light',Arial;mso-line-height-rule:exactly; font-size:12px; line-height:14px; text-align:center; font-weight:normal">
+                                                    <a href="http://www.knowamp.com/" target="_blank"
+                                                       style="color:#474648; font-family:'proximanova-light',Arial;mso-line-height-rule:exactly; font-size:12px; line-height:14px; text-align:center; font-weight:normal; text-decoration: none; letter-spacing: 0.75px">FAQ </a>
+                                                </div>
+                                            </td>
+                                            <!-- end fist box -->
+
+                                            <!-- for verticle space -->
+                                            <td class="column" width="30">
+                                                <div style="display:block; font-size:0pt; line-height:0pt; height:14px">
+                                                    <img src="img/empty.gif"
+                                                         width="1" height="14"
+                                                         style="display:block; height:14px" alt=""/>
+                                                </div>
+                                            </td>
+                                            <!-- end verticle space -->
+
+                                            <!-- second box -->
+                                            <td class="column" width="56" valign="top"
+                                                style="text-align:center; color:#474648;">
+                                                <div class="img-center"
+                                                     style="color:#474648; font-family:'proximanova-light',Arial;mso-line-height-rule:exactly; font-size:12px; line-height:14px; text-align:center; font-weight:normal">
+                                                    <a href="http://www.knowamp.com/"
+                                                       target="_blank"
+                                                       style="color:#474648; font-family:'proximanova-light',Arial;mso-line-height-rule:exactly; font-size:12px; line-height:14px; text-align:center; font-weight:normal; text-decoration: none; letter-spacing: 0.75px">TERMS</a>
+                                                </div>
+                                            </td>
+                                            <!-- end second box -->
+
+                                            <!-- for verticle space -->
+                                            <td class="column" width="30">
+                                                <div style="display:block; font-size:0pt; line-height:0pt; height:14px">
+                                                    <img src="img/empty.gif"
+                                                         width="1" height="14"
+                                                         style="display:block; height:14px" alt=""/>
+                                                </div>
+                                            </td>
+                                            <!-- end verticle space -->
+
+                                            <!-- third box -->
+                                            <td class="column" width="60" valign="top"
+                                                style="text-align:center; color:#474648;">
+                                                <div class="img-center"
+                                                     style="color:#474648; font-family:'proximanova-light',Arial;mso-line-height-rule:exactly; font-size:12px; line-height:14px; text-align:center; font-weight:normal">
+                                                    <a href="http://www.knowamp.com/"
+                                                       target="_blank"
+                                                       style="color:#474648; font-family:'proximanova-light',Arial;mso-line-height-rule:exactly; font-size:12px; line-height:14px; text-align:center; font-weight:normal; text-decoration: none; letter-spacing: 0.75px">PRIVACY</a>
+                                                </div>
+                                            </td>
+                                            <!-- end third box -->
+
+                                            <!-- for verticle space -->
+                                            <td class="column" width="30">
+                                                <div style="display:block; font-size:0pt; line-height:0pt; height:14px">
+                                                    <img src="img/empty.gif"
+                                                         width="1" height="14"
+                                                         style="display:block; height:14px" alt=""/>
+                                                </div>
+                                            </td>
+                                            <!-- end verticle space -->
+
+                                            <!-- fourth box -->
+                                            <td class="column" width="70" valign="top"
+                                                style="text-align:center; color:#474648;">
+                                                <div class="img-center"
+                                                     style="color:#474648; font-family:'proximanova-light',Arial;mso-line-height-rule:exactly; font-size:12px; line-height:14px; text-align:center; font-weight:normal;">
+                                                    <a href="http://www.knowamp.com/"
+                                                       target="_blank"
+                                                       style="color:#474648; font-family:'proximanova-light',Arial;mso-line-height-rule:exactly; font-size:12px; line-height:14px; text-align:center; font-weight:normal; text-decoration: none; letter-spacing: 0.75px">CONTACT</a>
+                                                </div>
+                                            </td>
+                                            <!-- end fourth box -->
+
+                                            <!-- for verticle space -->
+                                            <td class="column" width="30">
+                                                <div style="display:block; font-size:0pt; line-height:0pt; height:14px">
+                                                    <img src="img/empty.gif"
+                                                         width="1" height="14"
+                                                         style="display:block; height:14px" alt=""/>
+                                                </div>
+                                            </td>
+                                            <!-- end verticle space -->
+
+                                            <!-- fifth box -->
+                                            <td class="column" width="160" valign="top"
+                                                style="text-align:center; color:#474648;">
+                                                <div class="img-center"
+                                                     style="color:#474648; font-family:'proximanova-light',Arial;mso-line-height-rule:exactly; font-size:12px; line-height:14px; text-align:center; font-weight:normal;">
+                                                    <a href="http://www.knowamp.com" target="_blank"
+                                                       style="color:#474648; font-family:'proximanova-light',Arial;mso-line-height-rule:exactly; font-size:12px; line-height:14px; text-align:center; font-weight:normal; text-decoration: none; letter-spacing: 0.75px">©KNOWAMP 2017</a>
+                                                </div>
+                                            </td>
+                                            <!-- end fifth box -->
+
+                                            <td style="font-size:0pt; line-height:0pt; text-align:left"
+                                                width="60"></td> <!-- side space -->
+                                        </tr>
+                                    </table>
+                                    <!-- end five box -->
+
+                                    <!-- spacer -->
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td>
+                                                <div style="display:block; font-size:0pt; line-height:0pt; height:10px">
+                                                    <img src="img/empty.gif"
+                                                         width="1" height="10"
+                                                         style="display:block; height:10px" alt=""/></div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- end spacer -->
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <!-- End Footer Menu -->
+
+                        <!-- unsubscribe Starts-->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#000000">
+                            <tbody>
+                                <tr>
+                                    <td class="w20" width="20"></td>
+                                    <td align="center" class="column" width="576">  
+                                        <div style="font-size:0pt; line-height:0pt; height:5px"><img src="img/empty.gif" width="1" height="5" style="height:5px" alt="" /></div>                                                      
+
+                                        <div  style="color:#ffffff; font-family:'proximanova-bold',Arial; font-size:12px; mso-line-height-rule:exactly; line-height:16px; text-align:center; letter-spacing: 1px;">
+                                            <div>
+                                                To unsubscribe from our emails <a href="*|UNSUB|*" target="_blank" style="color:#ffffff;text-decoration:none"><span  style="color:#ffffff; text-decoration:none"> CLICK HERE. </span></a>
+                                            </div>
+                                        </div>
+
+                                        <div style="font-size:0pt; line-height:0pt; height:5px"><img src="img/empty.gif" width="1" height="5" style="height:5px" alt="" /></div>
+                                    </td>
+                                    <td class="w20" width="20"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- unsubscribe End -->
+
+
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+
+                                               
