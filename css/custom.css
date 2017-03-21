@@ -670,3 +670,19 @@ p, ul, ol {
 }
 
 /* Ask Question Css Ends */
+
+/* About us */
+
+.main_content.abt_content {
+    padding: 60px 0px 70px;
+    background: #eee;
+    position: relative;
+}
+
+.abt_content .title {
+    font-size: 50px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
