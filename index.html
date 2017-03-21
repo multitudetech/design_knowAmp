@@ -170,7 +170,7 @@
 							</div>
 							<button type="submit" class="btn btn-default">Log In</button> <span> or </span>
 							<a href="#" class="btn btn-default register"> Register </a>
-							<p class="space10"> <a href="#"> Forget Password ? </a> </p>
+							<p class="space10"> <a href="#myModal_reset" data-toggle="modal" data-target="#myModal_reset"> Forget Password ? </a> </p>
 						</form>
 					</div>
 				</div>
@@ -216,6 +216,33 @@
 
 	</div><!--/container-fluid-->
 </section>
+
+
+
+    <!-- Reset Modal -->
+<div class="modal search_modal fade" id="myModal_reset" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  	<div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      	<div class="modal-body">
+	      		<h3 class="search_title"> No worries, we have your back !!   </h3>
+	        	<form class="main-search main-forget">
+	        		<div class="form-group">
+	        			<input type="search" name="main-search" class="form-control" placeholder="Registered Email Address">
+	        		</div>
+	        		<div class="form-group text-center">
+	        			<a role="button" href="reset.html" class="btn btn-primary">Reset Password</a>
+	        		</div>
+
+	        		<button type="button" class="close-modal" data-dismiss="modal" aria-label="Close"><span>&times;</span></button>
+
+	        		<p class="note">
+	        			Note: After Entering your email address here, please check your email for your password reset link. <br><br> Thanks for being with knowAmp.com Community.
+	        		</p>
+	        	</form>
+	      	</div>
+	    </div>
+  	</div>
+</div>
 
 	<section class="why_amp">
 		
